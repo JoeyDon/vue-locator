@@ -1,7 +1,12 @@
 {
-	"name": "vue-locator",
-	"displayName": "vue-locator",
+	"name": "vue-navigator",
+	"displayName": "vue-navigator",
 	"description": "Pipi Bon help you locate and navigate",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/JoeyDon/vue-locator"
+	},
+	"publisher": "Pidai",
 	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.42.0"
@@ -9,6 +14,12 @@
 	"categories": [
 		"Other"
 	],
+	"icon": "images/icon.png",
+	"keywords": [
+        "navigator",
+        "vue",
+        "jump"
+    ],
 	"activationEvents": [
 		"onCommand:extension.goHTML",
 		"onCommand:extension.goJS",

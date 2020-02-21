@@ -1,65 +1,108 @@
-# vue-locator README
+# Vue-Navigator
 
-This is the README for your extension "vue-locator". After writing up a brief description, we recommend including the following sections.
+This extension helps you to move within HTML/CSS/JS much quicker
 
-## Features
+## Key features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* Optimized for keyboard use
+* No selection needed
+* Navigate to different codes for fast coding
+* Doesn't break codes
 
-For example if there is an image subfolder under your extension project workspace:
+> ### Type the variable to log
 
-\!\[feature X\]\(images/feature-x.png\)
+![demo](images/screenshot_inline_replace.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+> ### Log the variable on cursor
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+![demo](images/screenshot_log_cursor.gif)
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+> ### Type and log it as a string
 
-For example:
 
-This extension contributes the following settings:
+![demo](images/screenshot_inline_string.gif)
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
 
-## Known Issues
+> ### Keep your indents
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+![demo](images/screenshot_indent.gif)
 
-## Release Notes
 
-Users appreciate release notes as you update your extension.
+> ### Use custom prefix
 
-### 1.0.0
+![demo](images/screenshot_custom_prefix.gif)
 
-Initial release of ...
 
-### 1.0.1
+The fastest way to log your variables! Type it and press `Ctrl+Alt+W` + `W`.
 
-Fixed issue #.
+Another way to `console.log` your variables is to simply place your **mouse cursor** on them and then wrap them on the line below with `Ctrl+Alt+W` + `Down` or the line above with `Ctrl+Alt+W` + `Up`.
 
-### 1.1.0
+Does the keyboard shortcuts seem to complex? Don't worry, they feel way more comfortable than they look. :)
 
-Added features X, Y, and Z.
+Also, you are free to rebind all keyboard shortcuts as you want in your workspace and user settings files. :)
 
------------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
+## Keyboard shortcuts
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+> ### Log as string
+*Replace the word on your cursor or the selected text*
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+*  `Alt+Shift+W` + `W`
 
-### For more information
+##### OBS: If the string to log contains spaces you need to select the whole string
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+### Log on current line
+*Replace the variable on the mouse cursor*
+> ### Wrap and replace
+
+*  `Ctrl+Alt+W` + `W`
+
+> ### With prefix
+
+*  `Ctrl+Alt+W` + `Ctrl+Alt+W`
+
+
+> ### With prefix (show input box)
+
+*  `Ctrl+Shift+Alt+W` + `Ctrl+Shift+Alt+W`
+
+---
+
+### Insert **down**
+*Insert console.log on the line below*
+
+> ### Down
+
+*  `Ctrl+Alt+W` + `Down`
+
+> ### With prefix
+
+*  `Ctrl+Alt+W` + `Ctrl+Alt+Down`
+
+
+> ### With prefix (show input box)
+
+*  `Ctrl+Shift+Alt+W` + `Ctrl+Shift+Alt+Down`
+
+---
+
+### Insert **up**
+*Insert console.log on the line above*
+
+> ### Up
+
+*  `Ctrl+Alt+W` + `Up`
+
+> ### With prefix
+
+*  `Ctrl+Alt+W` + `Ctrl+Alt+Up`
+
+
+> ### With prefix (show input box)
+
+*  `Ctrl+Shift+Alt+W` + `Ctrl+Shift+Alt+Up`
+
