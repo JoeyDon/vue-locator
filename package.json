@@ -1,0 +1,75 @@
+{
+	"name": "vue-locator",
+	"displayName": "vue-locator",
+	"description": "Pipi Bon help you locate and navigate",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.goHTML",
+		"onCommand:extension.goJS",
+		"onCommand:extension.goCSS"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.goHTML",
+				"title": "Go Html"
+			},
+			{
+				"command": "extension.goJS",
+				"title": "Go Javascript"
+			},
+			{
+				"command": "extension.goCSS",
+				"title": "Go CSS"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.goHTML",
+				"key": "alt+1",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "extension.goJS",
+				"key": "alt+2",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "extension.goCSS",
+				"key": "alt+3",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.1",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.42.0",
+		"@typescript-eslint/eslint-plugin": "^2.20.0",
+		"@typescript-eslint/parser": "^2.20.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.10.0",
+		"eslint-plugin-prettier": "^3.1.2",
+		"glob": "^7.1.6",
+		"mocha": "^7.0.1",
+		"prettier": "^1.19.1",
+		"typescript": "^3.7.5",
+		"vscode-test": "^1.3.0"
+	}
+}
