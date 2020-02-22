@@ -9,9 +9,17 @@ This extension helps you to move to HTML/CSS/JS much quicker in the same page.
 * Navigate to different codes for fast coding
 * Doesn't break codes
 
-> ### Navigate to Javasript(<script>)
+> ### Navigate to HTML(first<template>)
 *  `Alt` + `1`
+![demo](images/gifs/toHTML.gif)
+
+> ### Navigate to Javasript(<script>)
+*  `Alt` + `2`
 ![demo](images/gifs/toJS.gif)
+
+> ### Navigate to Javasript(<script>)
+*  `Alt` + `3`
+![demo](images/gifs/toCSS.gif)
 
 
 > ### Log the variable on cursor
