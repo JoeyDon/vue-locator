@@ -12,15 +12,15 @@ This extension helps you to quickly navigate to HTML/CSS/JS in the same page.
 --- 
 
 ## Basic Usage
-> ### Navigate to HTML(first<template>)
+> ### Navigate to HTML part
 *  `Alt` + `1`
 ![demo](images/gifs/toHTML.gif)
 
-> ### Navigate to Javasript(<script>)
+> ### Navigate to Javasript part
 *  `Alt` + `2`
 ![demo](images/gifs/toJS.gif)
 
-> ### Navigate to Javasript(<script>)
+> ### Navigate to CSS part
 *  `Alt` + `3`
 ![demo](images/gifs/toCSS.gif)
 
@@ -28,7 +28,7 @@ This extension helps you to quickly navigate to HTML/CSS/JS in the same page.
 
 ## Advanced Usage (Auto-detection)
 > ### Navigate to the exact HTML element with classname
-*  `Alt` + `1` when your cursor in <style> CSS area
+*  `Alt` + `1` when your cursor in CSS area
 ![demo](images/gifs/toHTMLwithCSS.gif)
 
 > ### Navigate to the spcific JS function
