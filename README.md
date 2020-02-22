@@ -1,6 +1,6 @@
 # Vue-Navigator
 
-This extension helps you to move within HTML/CSS/JS much quicker
+This extension helps you to move to HTML/CSS/JS much quicker in the same page.
 
 ## Key features
 
@@ -9,9 +9,9 @@ This extension helps you to move within HTML/CSS/JS much quicker
 * Navigate to different codes for fast coding
 * Doesn't break codes
 
-> ### Type the variable to log
-
-![demo](images/screenshot_inline_replace.gif)
+> ### Navigate to Javasript(<script>)
+*  `Alt` + `1`
+![demo](images/gifs/toJS.gif)
 
 
 > ### Log the variable on cursor
