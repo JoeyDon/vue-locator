@@ -9,6 +9,8 @@ This extension helps you to quickly navigate to HTML/CSS/JS in the same page.
 * Navigate to different parts(HTML-CSS-JS) for faster coding
 * Doesn't break codes
 
+--- 
+
 ## Basic Usage
 > ### Navigate to HTML(first<template>)
 *  `Alt` + `1`
@@ -22,6 +24,8 @@ This extension helps you to quickly navigate to HTML/CSS/JS in the same page.
 *  `Alt` + `3`
 ![demo](images/gifs/toCSS.gif)
 
+---
+
 ## Advanced Usage (Auto-detection)
 > ### Navigate to the exact HTML element with classname
 *  `Alt` + `1` when your cursor in <style> CSS area
@@ -31,3 +35,9 @@ This extension helps you to quickly navigate to HTML/CSS/JS in the same page.
 *  `Alt` + `2` when your cursor is at v-model or @click event
 ![demo](images/gifs/toJSwithHTML.gif)
 
+---
+
+## Future roadmap
+* More support of Vue syntax (Router, Store)
+* Ability of switching between files
+* Adapt more/different coding styles
