@@ -1,7 +1,7 @@
 {
 	"name": "vue-navigator",
 	"displayName": "vue-navigator",
-	"description": "Pipi Bon help you locate and navigate",
+	"description": "Rapidly switch in HTML/CSS/JS in the same component",
 	"repository": {
         "type": "git",
         "url": "https://github.com/JoeyDon/vue-locator"
